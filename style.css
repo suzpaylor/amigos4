@@ -1,5 +1,15 @@
 /* PORTFOLIO PAGE */
 
+body {
+    background-image: linear-gradient(#d13531, #bae7f5);
+    background-repeat: no-repeat;
+    height:100%;
+    width:100%;
+    padding:0px;
+    margin:0px;
+
+}
+
 .nav-wrapper {
     display: flex;
     flex-direction: row-reverse;
@@ -21,6 +31,49 @@ a:hover {
     color: rgb(86, 86,86);
 }
 
+.one {
+    background-image: url("mountain-banner.png"), linear-gradient(#d13531, #bae7f5 );
+    background-size: 100%;
+    padding: 1% 0;
+    background-repeat: no-repeat;
+}
+
+.banner-wrapper {
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    margin: 25px;
+    padding: 25px;
+    width: 100 auto;
+    height: auto;
+}
+
+.banner {
+    display: flex;
+    /* border: solid black 5px; */
+    align-self: center;
+    align-items: center;
+    /* width: 70 auto; */
+    margin: 25px;
+    padding: 25px;
+    background-color:#de7254;
+    opacity: 85%;
+    border-radius: 5px;
+    margin: 10px;
+    align-content: center;
+    justify-content: center;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.banner:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+
+  .circle-photo {
+    border-radius: 50%;
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -39,7 +92,7 @@ a:hover {
 
  .first-col, .second-col, .third-col {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
@@ -49,7 +102,7 @@ a:hover {
 
 
 .project-wrapper {
-    background-color: white;
+    background-color:#de7254;
     border-radius: 5px;
     margin: 10px;
     align-content: center;
@@ -108,6 +161,71 @@ a.round-button.play-button {
     transition: all 0.4s ease 0s;
     }
 
+.text-wrapper {
+    padding-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* THIRD SECTION CSS */
+.par3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 50% auto;
+    /* justify-content: space-around; */
+}
+
+/* .tableMaker {
+    margin-left: 33.5%; 
+} */
+
+.centerText {
+    
+    /* display: block; */
+    margin-left: 27%;
+    margin-top: 2.5%;
+    padding: 1% 2.5%;
+    width: 43%;
+}
+
+
+.project-wrapper:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+
+.text-wrapper {
+    padding-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn {
+    border-radius: 5px;
+    background: lightgray;
+    margin-left: 5px;
+    padding: 8px;
+     -webkit-transition: 0.4s;
+     transition-duration: 0.4s;
+}
+
+.btn:hover {
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+}
+
+td {
+    background: #de7254;
+
+}
+.tableBody {
+    background: #de7254;
+    border-radius: 5px;
+}
 .text-wrapper {
     padding-left: 10px;
     display: flex;

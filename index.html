@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Inconsolata|Montserrat:600" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="javascript.js"></script>
     <title>Max_Willets</title>
 </head>
 <body>
@@ -18,6 +19,28 @@
     </div>
 <br>
 <br>
+
+<div class="one">
+    <div class="banner-wrapper">
+      <div class="banner">
+        <div class="my-photo">
+          <img
+            src="max2.jpg" alt="photo of max willets"
+            class="circle-photo"
+          />
+        </div>
+        <div class="main-bio">
+          Hello! My name is Max Wilets and I made this page with only html,
+          CSS, and Javascript! I was born in Sandy, Utah. I graduated from
+          the University of Utah with a BS in Geography. I also attended a
+          coding bootcamp at the University of Utah where I will be a
+          teaching assistant of my own cohort My hobbies include
+          skateboarding, making music, and playing table top board games
+        </div>
+      </div>
+    </div>
+  </div>
+
 <div class="container">
     <!--the one below will be centered-->
         <div class="content-wrapper"> 
@@ -84,6 +107,51 @@
             </div>
         </div>
 </div>
+<!--CODE FOR LAST SECTION-->
+<div class="par3">
+    <div class="tableMaker">
+      <div class="centerText project-wrapper text-wrapper">
+        <h2>Multiplication Table</h2>
+
+        <p>
+          This is a multiplication table generator! Click on the row and
+          column fields to increase or decrease the number of rows you want.
+          When the table is made, a reset button will appear to remove the
+          table and try again!
+        </p>
+        <div id="numberForm">
+          Rows
+          <!--I could have made the default value be 6 but for the sake of this project I let the default be empty-->
+          <input
+            id="newRow"
+            type="number"
+            value=""
+            name="rows"
+            min="1"
+            max="6"
+          />
+          Column
+          <input
+            id="newColumn"
+            type="number"
+            value=""
+            name="column"
+            min="1"
+            max="6"
+          />
+          <button class="btn" onClick="tableMaker()">Make Table</button>
+        </div>
+        <button id="reset" class="btn" onClick="removeTable()">
+          Reset
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="tableBox text-wrapper">
+    <div id="dynaTable" class="newTable"></div>
+  </div>
+
+
 </body>
 </html>
 </body>
