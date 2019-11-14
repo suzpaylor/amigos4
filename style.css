@@ -1,0 +1,116 @@
+/* PORTFOLIO PAGE */
+
+.nav-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    font-family: 'Montserrat', sans-serif;
+    font-variant: small-caps;
+    letter-spacing: .2em;
+    color: grey;
+    transition: .25s;
+}
+
+a {
+    color: grey;
+    text-decoration: none!important;
+    transition: .25s;
+}
+
+a:hover {
+    color: rgb(86, 86,86);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 25px;
+    padding: 25px;
+    width: 100 auto;
+    height: auto;
+    
+}
+
+.content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+ .first-col, .second-col, .third-col {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 320px;
+    margin: 10px;
+}
+
+
+.project-wrapper {
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px;
+    align-content: center;
+    justify-content: center;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.project-wrapper:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+
+img {
+    border-radius: 5px;
+    padding: 5px;
+    border: solid white 5px;
+}
+
+.button-text-wrapper {
+    display: flex;
+    margin: -8px 5px 0px 5px;
+}
+
+.button-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.round-button {
+    color: #fff !important;
+    text-transform: uppercase;
+    background: lightgray;
+    padding: 8px;
+    border-radius: 20px;
+    display: inline-block;
+    border: none;
+    margin: 5px 0px 5px 0px;
+    }
+
+.round-button > .fa-code {
+    color: white;
+    opacity: 1;
+}
+
+a.round-button.play-button {
+    padding-left: 12px;
+}
+
+.round-button:hover {
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+    }
+
+.text-wrapper {
+    padding-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Raleway', sans-serif;
+}
