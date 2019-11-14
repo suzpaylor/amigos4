@@ -232,3 +232,23 @@ td {
     flex-wrap: wrap;
     font-family: 'Raleway', sans-serif;
 }
+
+/* MEDIA QUERIES add to .banner-wrapper */
+
+@media screen and (max-width: 640px) {
+    .banner {
+        flex-direction: row;
+    }
+}
+
+/* @media screen and (max-width: 540px) {
+    .banner-wrapper {
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .banner-wrapper {
+        font-size: 1.5em;
+    }
+} */
